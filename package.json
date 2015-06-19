@@ -1,0 +1,21 @@
+{
+  "name": "alphaify",
+  "version": "1.0.0",
+  "repository": "git://github.com/vicapow/alphaify.git",
+  "description": "takes a color and sets its alpha.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "alphaify",
+    "alpha",
+    "color",
+    "d3"
+  ],
+  "author": "Victor Powell",
+  "license": "ISC",
+  "peerDependencies": {
+    "d3": "^3.5.5"
+  }
+}
