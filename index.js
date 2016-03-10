@@ -1,9 +1,9 @@
 'use strict';
 
-var d3 = require('d3');
+var d3Color = require('d3-color');
 
 function alphaify(color, a) {
-  var c = d3.rgb(color);
+  var c = d3Color.rgb(color);
   return 'rgba(' + [c.r, c.g, c.b] + ', ' + a + ')';
 }
 

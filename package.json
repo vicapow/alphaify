@@ -1,6 +1,6 @@
 {
   "name": "alphaify",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "repository": "git://github.com/vicapow/alphaify.git",
   "description": "takes a color and sets its alpha.",
   "main": "index.js",
@@ -16,6 +16,9 @@
   "author": "Victor Powell",
   "license": "ISC",
   "peerDependencies": {
-    "d3": "^3.5.5"
+    "d3-color": "^0.4.2"
+  },
+  "devDependencies": {
+    "d3-color": "^0.4.2"
   }
 }
